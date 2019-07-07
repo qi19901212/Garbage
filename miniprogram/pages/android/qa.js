@@ -14,7 +14,7 @@ Page({
     inputvalue:""
   },
   requestData: {
-    app_id: '2117711812',
+    app_id: '',
     time_stamp: '',
     nonce_str: '',
     text: '',

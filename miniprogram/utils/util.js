@@ -36,7 +36,7 @@ function signTengxunAI(map){
   for (var i = 0; i < keysArr.length; i++) {
     param = param + keysArr[i] + "=" + map.get(keysArr[i]) + "&"
   }
-  param = param + "app_key=AhqN5vmKQNtedoCh"
+  param = param + "app_key="
   var md5Param = md5.hexMD5(param).toUpperCase()
   // console.log("param============", param)
   console.log("md5Param=========", md5Param)
