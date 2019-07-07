@@ -1,4 +1,5 @@
-# 小程序使用到的云开发内容
+# 垃圾分类小程序
+## 小程序使用到的云开发内容
 
 云函数，云数据库：
 
@@ -13,15 +14,6 @@
 ## 直接扫码体验
 ![垃圾分类智能工具](https://6c61-laji-bopv4-1259505195.tcb.qcloud.la/%E4%B8%8B%E8%BD%BD.png?sign=9ac1d35da98fdf1ff62950948e267f05&t=1562463997)
 
-
-
-还可以接入智能客服
-\\ {
-        "pagePath": "pages/android/qa",
-        "text": "小Q分垃圾",
-        "iconPath": "images/qa_default.png",
-        "selectedIconPath": "images/qa.png"
-      },
  
 
 
