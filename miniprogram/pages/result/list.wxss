@@ -1,0 +1,64 @@
+.bg-darkGray {
+	background-color:  #f6f6f6;
+	color:#ffffff;
+}
+.cu-bar .search-form {
+  background-color:  #ffffff;
+}
+
+.filter-view {
+  display: flex;
+  flex-direction: column;
+}
+.item-view{
+  display: flex;
+  flex-direction: row;
+  padding: 20rpx 50rpx;
+  height: 90rpx;
+  align-items: center;
+}
+.img{
+  height: 50rpx;
+  width: 50rpx;
+  margin-right: 30rpx;
+}
+.item-ji {
+  background-color:  #f6f6f6;
+	color:black;
+}
+.cu-dialog{
+  width: 300rpx;
+}
+.bg-img{
+  width: 300rpx;
+  height: 300rpx;
+}
+.no-view{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin-top: 250rpx;
+}
+.no-img{
+  width: 300rpx;
+  height: 300rpx;
+}
+.content{
+  color:#00cc77;
+  font-size:30rpx;
+  font-weight: bold; 
+  margin-top: 30rpx;
+}
+.btn-view{
+  margin-top: 40rpx;
+  display: flex;
+  flex-direction: row;
+}
+.btn-commit{
+  border-radius: 20rpx;
+  background-color:#00cc77;
+  color: white; 
+  margin:0 10rpx; 
+  padding: 20rpx 80rpx;
+}

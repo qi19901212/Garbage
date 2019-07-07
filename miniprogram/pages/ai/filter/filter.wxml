@@ -1,0 +1,10 @@
+<view class="filter-view" wx:for="{{datas}}" wx:key>
+  <view class="item-view item-o bg-white"  wx:if="{{index%2==0}}">
+    <image class="img" src='{{logo}}'></image>
+    <text  >{{item.name}}</text>
+  </view>
+   <view class="item-view item-ji bg-grey" wx:else>
+    <image class="img" src='{{logo}}'></image>
+    <text  >{{item.name}}</text>
+  </view>
+</view>

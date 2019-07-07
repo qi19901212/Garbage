@@ -1,0 +1,104 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": false,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"appid": "",
+	"projectname": "Garbage",
+	"libVersion": "2.7.2",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 7,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "分类",
+					"pathName": "pages/sort/sort",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "拍照页面",
+					"pathName": "pages/ai/camera/camera",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "搜索",
+					"pathName": "pages/ai/search",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "筛选",
+					"pathName": "pages/ai/filter/filter",
+					"query": "type=3",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "ai 搜索结果",
+					"pathName": "pages/result/gan",
+					"query": "keyword=花",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "未查询到的结果提交",
+					"pathName": "pages/result/commit",
+					"query": "keyword=花",
+					"scene": null
+				},
+				{
+					"id": 7,
+					"name": "小Q",
+					"pathName": "pages/android/qa",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

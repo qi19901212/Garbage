@@ -1,0 +1,28 @@
+<scroll-view class="cu-chat" scroll-y style="height:calc(100vh - 100rpx)"scroll-top="{{scrollTop}}">
+  <block wx:for="{{chats}}" wx:key>
+    <view class="cu-item" wx:if="{{item.type==0}}">
+    <view class="cu-avatar radius" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big143004.jpg);"></view>
+    <view class="main">
+      <view class="content shadow">
+        <text>{{item.content}}</text>
+      </view>
+    </view>
+  </view>
+  
+  <view class="cu-item self" wx:else>
+    <view class="main">
+      <view class="content bg-green shadow">
+        <text>{{item.content}}</text>
+      </view>
+    </view>
+    <view class="cu-avatar radius" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big107000.jpg);"></view>
+  </view>
+  </block>
+</scroll-view>
+
+
+<view class="cu-bar foot input cur">
+  <input class="solid-bottom" bindfocus="InputFocus" bindblur="InputBlur" adjust-position="{{false}}" bindinput="inputContent" focus="{{false}}" maxlength="300" cursor-spacing="10" value="{{inputvalue}}"></input>
+
+  <button class="cu-btn bg-green shadow" bindtap="onSend">发送</button>
+</view>

@@ -1,0 +1,14 @@
+.bg-green{
+  background-color: #00cc77;
+}
+.cu-bar.input{
+  background-color: #f6f6f6;
+}
+.solid-bottom{
+  background-color: white;
+  border-radius: 10rpx;
+}
+.cu-chat{
+  margin-bottom: 100rpx;
+  height:100vh;
+}

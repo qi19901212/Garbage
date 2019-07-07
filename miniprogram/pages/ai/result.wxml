@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="view-hearder">
+    <image class="logo" src="/images/ResidualWaste.png"></image>
+    <view class="hearder-name-view">
+      <text class="one-view">干垃圾:</text>
+      <text class="two-view">除有害垃圾、湿垃圾、可回收物以外的其他生活废弃物</text>
+    </view>
+  </view>
+  <view class="title">干垃圾主要包括</view>
+  <view>餐盒、餐巾纸、湿纸巾、卫生间用纸、塑料袋、 食品包装袋、污染严重的纸、烟蒂、纸尿裤、 一次性杯子、大骨头、贝壳、花盆、陶瓷等</view>
+  <view class="title">干垃圾投放要求</view>
+  <view class="action-go">
+    <text class="cuIcon-title text-gan"></text>
+    <text>尽量沥干水分</text>
+  </view>
+<view class="action-go">
+    <text class="cuIcon-title text-gan"></text>
+    <text>难以辨识类别的生活垃圾投入干垃圾容器内</text>
+  </view>
+</view>

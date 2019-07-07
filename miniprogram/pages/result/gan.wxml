@@ -1,0 +1,28 @@
+<view class="container" style="background-color:{{sort.bgcolor}}"
+ wx:if="{{!isShowNoResult}}">
+  <view class="view-hearder">
+    <image class="logo" src="{{sort.logo}}"></image>
+    <view class="hearder-name-view">
+      <text class="one-view">{{sort.name}}:</text>
+      <text class="two-view">{{sort.content}}</text>
+    </view>
+  </view>
+  <view class="title" style="background-color:{{sort.color}}">{{sort.name}}主要包括</view>
+  <view>{{sort.desc}}</view>
+  <view class="title" style="background-color:{{sort.color}}">{{sort.name}}投放要求</view>
+  <block wx:for="{{sort.action}}" wx:key>
+    <view class="action-go">
+      <text class="cuIcon-title text-gan"></text>
+      <text>{{item}}</text>
+    </view>
+  </block>
+</view>
+<view class="no-view" wx:else>
+    <image class="no-img" src="/images/no-result.png"></image>
+  <text class="content">未找到相关内容</text>
+  <view class="btn-view">
+  <view class="btn-commit" bindtap="onGoHome"> 回首页</view>
+   <view class="btn-commit" bindtap="commit"> 去提交</view>
+  </view>
+  
+</view>

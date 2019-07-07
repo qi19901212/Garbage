@@ -1,0 +1,24 @@
+<view style="width: 100%; height:calc(100vh - 200rpx);">
+<camera style="width: 100%; height:100%;" wx:if="{{isCamera}}" device-position="back"
+ flash="off" binderror="error" ></camera>
+<image style="width: 100%; height:100%;"  wx:else mode="widthFix" src="{{src}}"></image>
+</view>
+
+<view class='photo-view'>
+ <view class='takePhoto' bindtap="takePhoto">{{btnTxt}}</view>
+</view>
+
+<view class="cu-modal {{isShow?'show':''}}" bindtap="hideModal">
+  <view class="cu-dialog" catchtap>
+    <radio-group class="block" bindchange="radioChange">
+      <view class="cu-list menu text-left">
+        <view class="cu-item" wx:for="{{results}}" wx:key="index">
+          <label class="flex justify-between align-center flex-sub">
+            <view class="flex-sub">{{item.keyword}}</view>
+            <radio class="round" value="{{item.keyword}}"></radio>
+          </label>
+        </view>
+      </view>
+    </radio-group>
+  </view>
+</view>

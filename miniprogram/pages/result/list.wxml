@@ -1,0 +1,34 @@
+<block wx:if="{{isHasData}}">
+<view class="filter-view" wx:for="{{datas}}" wx:key bindtap="onItemClick" data-index="{{index}}">
+  <view class="item-view item-o bg-white" wx:if="{{index%2==0}}">
+    <image wx:if="{{item.sortId==1}}" class="img" src='/images/RecycleableWaste.jpg'></image>
+    <image wx:elif="{{item.sortId==2}}" class="img" src='/images/HazardouAwaste.jpg'></image>
+    <image wx:elif="{{item.sortId==3}}" class="img" src='/images/HouseholdfoodWaste.jpg'></image>
+    <image wx:else="{{item.sortId==4}}" class="img" src='/images/ResidualWaste.png'></image>
+    <text>{{item.name}}</text>
+  </view>
+  <view class="item-view item-ji bg-grey" wx:else>
+    <image wx:if="{{item.sortId==1}}" class="img" src='/images/RecycleableWaste.jpg'></image>
+    <image wx:elif="{{item.sortId==2}}" class="img" src='/images/HazardouAwaste.jpg'></image>
+    <image wx:elif="{{item.sortId==3}}" class="img"   src='/images/HouseholdfoodWaste.jpg'></image>
+    <image wx:else="{{item.sortId==4}}" class="img" src='/images/ResidualWaste.png'></image>
+    <text>{{item.name}}</text>
+  </view>
+</view>
+</block>
+<block wx:else>
+<view class="no-view" >
+  <image class="no-img" src="/images/no-result.png"></image>
+  <text class="content">未找到相关内容</text>
+  <view class="btn-view">
+    <view class="btn-commit" bindtap="onGoHome"> 回首页</view>
+    <view class="btn-commit" bindtap="commit"> 去提交</view>
+  </view>
+</view>
+</block>
+
+<view class="cu-modal {{isShow?'show':''}}" bindtap="hideModal">
+  <view class="cu-dialog" bindtap="hideModal">
+    <image class="bg-img" src="{{logo}}"></image>
+  </view>
+</view>

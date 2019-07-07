@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/ai/index",
+    "pages/ai/camera/camera",
+    "pages/ai/search",
+    "pages/ai/filter/filter",
+    "pages/android/qa",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/sort/sort",
+    "pages/result/gan",
+    "pages/result/list",
+    "pages/result/commit"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00cc77",
+    "navigationBarTitleText": "智能垃圾分类",
+    "navigationBarTextStyle": "white"
+    },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/ai/index",
+        "text": "识别",
+        "iconPath": "images/icon_ai_default.png",
+        "selectedIconPath": "images/icon_ai.png"
+      },
+     
+      {
+        "pagePath": "pages/sort/sort",
+        "text": "分类",
+        "iconPath": "images/icon_sort_default.png",
+        "selectedIconPath": "images/icon_sort.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

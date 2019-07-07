@@ -1,0 +1,25 @@
+<view class="cu-bar bg-darkGray search">
+  <view class=" search-form  round " bindtap="goSearch">
+    <text class="cuIcon-search text-green"></text>
+    <input type="text" placeholder="输入垃圾名称" confirm-type="search" bindinput="searchIcon"></input>
+  </view>
+</view>
+<view class='ai-view'>
+  <text class='txt'>或</text>
+  <image src='/images/paizhao.png' class='ai-paizhao' bindtap='onBindCamera' />
+  <text class='tip'>自动识别</text>
+
+</view>
+<view class="box" wx:if="{{SHOW_TOP}}">
+  <view class='arrow'></view>
+  <view class='body' bindtap='showModal'>
+    <text>点击「添加到我的小程序」</text>
+  </view>
+</view>
+
+<view class="kefu-box">
+  <view class="kefu-body" bindtap="onAikefu">
+    <image class="img" src="/images/ai-chat.png"></image>
+    <text class="q-tx">智能询问</text>
+  </view>
+</view>

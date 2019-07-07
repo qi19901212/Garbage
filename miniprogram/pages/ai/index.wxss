@@ -1,0 +1,119 @@
+
+.bg-darkGray {
+	background-color:  #f6f6f6;
+	color:#ffffff;
+}
+.cu-bar .search-form {
+  background-color:  #ffffff;
+}
+.cu-bar .search-form input{
+  height: 100rpx;
+}
+.cu-bar .search-form{
+  height: 90rpx;
+}
+.cu-bar{
+  margin-top: 300rpx;
+}
+.ai-view{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50rpx;
+}
+.txt{
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #00cc77;
+}
+.tip{
+  font-size: 22rpx;
+  color: #00cc77;
+  margin-top: 20rpx;
+}
+.ai-paizhao{
+  width: 150rpx;
+  height: 150rpx;
+  margin-top: 50rpx;
+}
+.float-view{
+  position:absolute;
+  z-index:9;
+  width: 100rpx;
+  height: 100rpx;
+  margin-right: 50rpx;
+  margin-bottom: 50rpx;
+}
+
+
+
+.box {
+  position: fixed;
+  top: 0;
+  /* left: 0; */
+  right: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 600rpx;
+}
+.arrow {
+  width: 0;
+  height: 0;
+  margin-right: 120rpx;
+  border-width: 20rpx;
+  border-style: solid;
+  border-color:  transparent transparent #00cc77 transparent;
+}
+.body {
+  background-color: #00cc77;
+  box-shadow: 0 10rpx 20rpx -10rpx #00cc77;
+  border-radius: 12rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 84rpx;
+  padding: 0 20rpx;
+  margin-right: 40rpx;
+}
+.body > text {
+  color: #FFF;
+  font-size: 28rpx;
+  font-weight: 400;
+}
+.kefu-box{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 400rpx;
+  height: 400rpx;
+}
+.kefu-body {
+  background-color: white;
+  box-shadow: 0 10rpx 20rpx -10rpx #e1e1e1;
+  border-radius: 140rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60rpx;
+  padding: 10rpx 30rpx;
+  margin-right: 40rpx;
+  margin-bottom: 40rpx;
+}
+.img{
+  width: 40rpx;
+  height: 40rpx;
+}
+.q-tx{
+  margin: 0 0 0 10rpx;
+  font-size: 24rpx;
+}
