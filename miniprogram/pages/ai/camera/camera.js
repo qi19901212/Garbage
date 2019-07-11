@@ -68,18 +68,26 @@ Page({
   },
   req:function(token,image){
     var that=this
-    http.req("https://aip.baidubce.com/rest/2.0/image-classify/v2/advanced_general?access_token="        +token,{
+    http.req("https://aip.baidubce.com/rest/2.0/image-classify/v2/advanced_general?access_token="+token,{
       "image": image
     },function(res){
       wx.hideLoading()
+      console.log(JSON.stringify(res))
       var num=res.result_num
       var results = res.data.result
-      that.setData({
-        isShow:true,
-        results: results
-      })
-      console.log(JSON.stringify(res))
-      console.log(results)
+      if (results!=undefined&&results!=null){
+        that.setData({
+          isShow: true,
+          results: results
+        })
+        
+        console.log(results)
+      }else{
+        wx.showToast({
+          icon: 'none',
+          title: 'AI识别失败,请联系管理员',
+        })
+      }
     },"POST")
   },
   accessTokenFunc:function(){
