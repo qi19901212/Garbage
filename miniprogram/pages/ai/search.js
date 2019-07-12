@@ -93,6 +93,7 @@ Page({
   },
   onPullDownRefresh: function () {
     this.data.page=0
+    this.data.datas=[]
     this.onGetData()
   },
 
