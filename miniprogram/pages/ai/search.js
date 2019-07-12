@@ -15,10 +15,12 @@ Page({
  
   onLoad: function (options) {
     this.data.dataCount = db.collection('product').count()
-    // this.onGetData()
   },
   searchIcon:function(e){
     this.data.searchTxt= e.detail.value
+    console.log("====="+e.detail.value)
+    this.data.datas=[]
+    this.data.page==0
     this.onGetData()
   },
   onGetData:function(){
