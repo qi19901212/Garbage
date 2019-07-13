@@ -12,7 +12,7 @@
 1. 小程序key 在文件project.config.json->appid 记住创建小程序的时候选择云开发
 2. 百度key 主要做拍照识别的cloudfunctions->baiduAccessToken->index->clientId和clientSecret
 此处替换为：API Key 和 Secret Key
-3. 智能询问采用ai.qq 的智能闲聊接口 key在pages->android->qa->app_id 还需要app-key pages->utils->util->signTengxunAI的app_key
+3. 智能询问采用ai.qq 的智能闲聊接口 key在pages->android->qa->app_id和appKey 
 
 ## 云开发管理系统
 此管理系统用来管理这个小程序的数据，这样子我们彻底不需要服务器了。
