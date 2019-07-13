@@ -25,6 +25,12 @@
 ## 有什么问题可以访问我的群
 https://developers.weixin.qq.com/community/develop/doc/000cc6600f0610559fc857f6c5600c
 
+## 常见错误
+1. 没有自己部署云函数
+2. 数据库没有给与相应的权限，最好给最大权限
+3. 需要的key 配置错误。
+4. 没有创建数据库名称
+
  
 
 
