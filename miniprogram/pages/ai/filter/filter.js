@@ -33,7 +33,7 @@ Page({
         break;
       case 4:
         title = '干垃圾'
-        logoImg = "/images/ResidualWaste.jpg"
+        logoImg = "/images/ResidualWaste.png"
         break;
     }
     wx.setNavigationBarTitle({

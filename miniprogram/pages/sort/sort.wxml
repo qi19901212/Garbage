@@ -12,3 +12,4 @@
     <image class="icon" src='{{item}}'></image>
   </view>
 </view>
+

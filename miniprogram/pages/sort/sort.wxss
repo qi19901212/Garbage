@@ -1,7 +1,7 @@
 .icon{
-  width: 250rpx;
-  height: 250rpx;
-  margin: 40rpx;
+  width: 220rpx;
+  height: 220rpx;
+  margin: 20rpx 40rpx;
   border-radius: 20rpx;
 }
 .padding-sm{
