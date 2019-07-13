@@ -25,7 +25,7 @@ function generateRandomString(n){
   return res;
 }
 /** 腾讯AI 签名*/ 
-function signTengxunAI(map){
+function signTengxunAI(map,key){
   var mapKeys = map.keys;
   var keysArr = []
   for (let key of map.keys()) {

@@ -15,6 +15,7 @@ Page({
   },
   requestData: {
     app_id: '',
+    appKey:"",
     time_stamp: '',
     nonce_str: '',
     text: '',
@@ -42,7 +43,7 @@ Page({
     map.set("session", md5Str)
     map.set("question", encodeURIComponent(this.requestData.text))
     console.log("encodeURIComponent===", encodeURIComponent(this.requestData.text.trim()))
-    var md5Param = util.signTengxunAI(map)
+    var md5Param = util.signTengxunAI(map, this.requestData.appKey)
     this.requestData.sign = md5Param
     var that = this
     http.req('https://api.ai.qq.com/fcgi-bin/nlp/nlp_textchat', {
