@@ -13,7 +13,9 @@
 2. 百度key 主要做拍照识别的cloudfunctions->baiduAccessToken->index->clientId和clientSecret
 此处替换为：API Key 和 Secret Key
 3. 智能询问采用ai.qq 的智能闲聊接口 key在pages->android->qa->app_id 还需要app-key pages->utils->util->signTengxunAI的app_key
-
+## 云开发管理系统
+[GarbageAdmin](https://github.com/qi19901212/GarbageAdmin)
+方便管理小程序云的数据
 ## 直接扫码体验
 ![垃圾分类智能工具](https://6c61-laji-bopv4-1259505195.tcb.qcloud.la/%E4%B8%8B%E8%BD%BD.png?sign=9ac1d35da98fdf1ff62950948e267f05&t=1562463997)
 
