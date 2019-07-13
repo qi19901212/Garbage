@@ -19,8 +19,7 @@ Page({
   searchIcon:function(e){
     this.data.searchTxt= e.detail.value
     console.log("====="+e.detail.value)
-    this.data.datas=[]
-    this.data.page==0
+    this.data.page=0
     this.onGetData()
   },
   onGetData:function(){
@@ -36,6 +35,7 @@ Page({
       return
     }
     var that=this
+    console.log("=====" + this.data.page)
     if(this.data.page==0){
       this.data.datas=[]
     }
