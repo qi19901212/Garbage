@@ -10,7 +10,7 @@
 
 ## 需要修改为自己的key 
 1. 小程序key 在文件project.config.json->appid 记住创建小程序的时候选择云开发
-2. 百度key 主要做拍照识别的cloudfunctions->baiduAccessToken->index->clientId和clientSecret
+2. 百度key 主要做拍照识别的cloudfunctions->baiduAccessToken->index->apiKey和secretKey
 此处替换为：API Key 和 Secret Key
 3. 智能询问采用ai.qq 的智能闲聊接口 key在pages->android->qa->app_id和appKey 
 
