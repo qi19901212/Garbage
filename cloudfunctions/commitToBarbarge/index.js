@@ -18,8 +18,11 @@ exports.main = async (event, context) => {
         var result = await db.collection('commit').where(
           { keyword: event.name, _id: event.id }).remove()
         console.log("===" + JSON.stringify(result))
-        if (result.stats.removed) {
-          dataBack = { errCode: 1, errMsg: "已经存在,commit 表删除成功" }
+        var resultStats=result.stats
+        console.log("===" + JSON.stringify(resultStats))
+        console.log("===" + JSON.stringify(resultStats.removed))
+        if (resultStats.removed == 0 || resultStats.removed == 1) {
+          dataBack = { errCode: 0, errMsg: "已经存在,commit 表删除成功" }
         } else {
           dataBack = { errCode: 1, errMsg: "已经存在，但commit表删除失败" }
         }
@@ -37,7 +40,10 @@ exports.main = async (event, context) => {
           var result = await db.collection('commit').where(
             { keyword: event.name ,_id:event.id}).remove()
             console.log("==="+JSON.stringify(result))
-          if (result.stats.remove){
+          var resultStats = result.stats
+          console.log("===" + JSON.stringify(resultStats))
+          console.log("===" + JSON.stringify(resultStats.removed))
+          if (resultStats.removed == 0 || resultStats.removed == 1){
             dataBack = { errCode: 0, errMsg: "完美成功" }
             }else{
             dataBack = { errCode: 1, errMsg: "插入成功，但commit表删除失败" }
