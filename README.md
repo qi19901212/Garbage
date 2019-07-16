@@ -33,6 +33,7 @@
 ![333](https://github.com/qi19901212/Garbage/blob/master/miniprogram/qr/3333333.jpg)
 ![444](https://github.com/qi19901212/Garbage/blob/master/miniprogram/qr/44444.jpg)
 ![555](https://github.com/qi19901212/Garbage/blob/master/miniprogram/qr/55555.jpg)
+![666](https://github.com/qi19901212/Garbage/blob/master/miniprogram/qr/66666.jpg)
 
 
 ## 有什么问题可以访问我的群
