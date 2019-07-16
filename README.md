@@ -29,6 +29,7 @@
 ![垃圾分类智能工具](https://6c61-laji-bopv4-1259505195.tcb.qcloud.la/%E4%B8%8B%E8%BD%BD.png?sign=9ac1d35da98fdf1ff62950948e267f05&t=1562463997)
 ## 其他兄弟的垃圾分类小程序
 ![一键查垃圾分类](https://github.com/qi19901212/Garbage/blob/master/miniprogram/qr/laji1.jpg)
+![222](https://github.com/qi19901212/Garbage/blob/master/miniprogram/qr/222222.jpg)
 
 
 ## 有什么问题可以访问我的群
