@@ -30,6 +30,7 @@
 ## 其他兄弟的垃圾分类小程序
 ![一键查垃圾分类](https://github.com/qi19901212/Garbage/blob/master/miniprogram/qr/laji1.jpg)
 ![222](https://github.com/qi19901212/Garbage/blob/master/miniprogram/qr/222222.jpg)
+![333](https://github.com/qi19901212/Garbage/blob/master/miniprogram/qr/3333333.jpg)
 
 
 ## 有什么问题可以访问我的群
