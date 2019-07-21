@@ -39,7 +39,9 @@
 ## 有什么问题可以访问我的群
 https://developers.weixin.qq.com/community/develop/doc/000cc6600f0610559fc857f6c5600c
 
-
+## 转载问题
+转载请署名作者，不得作为商业用途，禁止售卖。
+[协议](https://github.com/qi19901212/Garbage/blob/master/LICENSE)
 
  
 
