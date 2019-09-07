@@ -3,7 +3,6 @@
     "pages/ai/index",
     "pages/ai/camera/camera",
     "pages/ai/search",
-    "pages/ad/index",
     "pages/ai/filter/filter",
     "pages/android/qa",
     "pages/index/index",
@@ -18,7 +17,7 @@
     "navigationBarBackgroundColor": "#00cc77",
     "navigationBarTitleText": "智能垃圾分类",
     "navigationBarTextStyle": "white"
-    },
+  },
   "tabBar": {
     "list": [
       {
@@ -27,7 +26,6 @@
         "iconPath": "images/icon_ai_default.png",
         "selectedIconPath": "images/icon_ai.png"
       },
-     
       {
         "pagePath": "pages/sort/sort",
         "text": "分类",
@@ -36,5 +34,8 @@
       }
     ]
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "navigateToMiniProgramAppIdList": [
+    "wx17128b374eab7c51"
+  ]
 }
