@@ -14,8 +14,8 @@ Page({
     inputvalue:""
   },
   requestData: {
-    app_id: '',
-    appKey:"",
+    app_id: '2117711812',
+    appKey:"AhqN5vmKQNtedoCh",
     time_stamp: '',
     nonce_str: '',
     text: '',
@@ -81,7 +81,7 @@ Page({
   onSend:function(){
     if (this.data.chats.length>100) {
       this.data.chats=[]
-    }
+    } 
     if (this.data.content==""){
       wx.showToast({
         title: '请输入内容...',

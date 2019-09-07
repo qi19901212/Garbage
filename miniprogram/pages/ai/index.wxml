@@ -17,9 +17,14 @@
   </view>
 </view>
 
-<view class="kefu-box">
+<!-- <view class="kefu-box">
   <view class="kefu-body" bindtap="onAikefu">
     <image class="img" src="/images/ai-chat.png"></image>
     <text class="q-tx">智能询问</text>
   </view>
-</view>
+</view> -->
+<view class="kefu-box">
+  <view class="kefu-body" bindtap="onAikefu">
+    <text class="q-tx">打赏开发者</text>
+  </view>
+</view> 

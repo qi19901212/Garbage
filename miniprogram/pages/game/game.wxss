@@ -1,0 +1,21 @@
+page{
+  height: 100%;
+}
+.name{
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #00cc77;
+  margin-bottom: 50rpx;
+}
+.view{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.img{
+  width: 400rpx;
+  height: 400rpx;
+}

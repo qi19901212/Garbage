@@ -31,12 +31,17 @@
 ![一键查垃圾分类](https://github.com/qi19901212/Garbage/blob/master/miniprogram/qr/laji1.jpg)
 ![222](https://github.com/qi19901212/Garbage/blob/master/miniprogram/qr/222222.jpg)
 ![333](https://github.com/qi19901212/Garbage/blob/master/miniprogram/qr/3333333.jpg)
+![444](https://github.com/qi19901212/Garbage/blob/master/miniprogram/qr/44444.jpg)
+![555](https://github.com/qi19901212/Garbage/blob/master/miniprogram/qr/55555.jpg)
+![666](https://github.com/qi19901212/Garbage/blob/master/miniprogram/qr/66666.jpg)
 
 
 ## 有什么问题可以访问我的群
 https://developers.weixin.qq.com/community/develop/doc/000cc6600f0610559fc857f6c5600c
 
-
+## 转载问题
+转载请署名作者，不得作为商业用途，禁止售卖。
+[协议](https://github.com/qi19901212/Garbage/blob/master/LICENSE)
 
  
 

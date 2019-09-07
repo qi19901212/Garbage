@@ -42,9 +42,14 @@ Page({
     this.setData({
       logo:logoImg
     })
-    this.data.dataCount = db.collection('product').where({
-      sortId: this.data.type
-    }).count()
+    var that=this
+    db.collection('product').where({
+      sortId: parseInt(this.data.type) 
+    }).count({
+      success: function (res) {
+        that.data.dataCount=res.total
+      }
+    })
     this.onGetData()
   },
   onGetData: function() {

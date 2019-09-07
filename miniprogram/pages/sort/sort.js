@@ -8,6 +8,8 @@ Page({
       "../../images/ResidualWaste.png",
     ]
   },
+  onLoad:function(){
+  },
   goSearch: function () {
     wx.navigateTo({
       url: '/pages/ai/search',

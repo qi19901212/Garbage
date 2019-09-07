@@ -12,7 +12,7 @@ App({
     const updateManager = wx.getUpdateManager()
     updateManager.onCheckForUpdate(function(res) {
       console.log(res.hasUpdate)
-      if (res.hasUpdate) {
+      if (res.hasUpdate) { 
         updateManager.onUpdateReady(function() {
           wx.showModal({
             title: '更新提示',
