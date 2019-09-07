@@ -1,0 +1,7 @@
+<view class="view" bindtap="onSkip" >
+<text class="name">垃圾来了，垃圾来了</text>
+<image 
+class="img"
+src="https://6c61-laji-bopv4-1259505195.tcb.qcloud.la/WechatIMG65.jpeg?sign=9848097e73a4d6e598de16dec9ca4abf&t=1565157877" mode=""> </image>
+</view>
+

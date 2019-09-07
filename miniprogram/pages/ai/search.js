@@ -11,7 +11,6 @@ Page({
     logo:"",
     isSHow:false
   },
-
  
   onLoad: function (options) {
     this.data.dataCount = db.collection('product').count()
