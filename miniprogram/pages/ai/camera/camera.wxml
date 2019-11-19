@@ -2,6 +2,8 @@
 <camera style="width: 100%; height:100%;" wx:if="{{isCamera}}" device-position="back"
  flash="off" binderror="error" ></camera>
 <image style="width: 100%; height:100%;"  wx:else mode="widthFix" src="{{src}}"></image>
+<canvas canvas-id="canvas" style="width:{{cWidth}}px;height:{{cHeight}}px;position: absolute;left:-1000px;top:-1000px;"></canvas>
+
 </view>
 
 <view class='photo-view'>
