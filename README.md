@@ -25,6 +25,11 @@
 3. 需要的key 配置错误。
 4. 没有创建数据库名称
 
+## 最常见错误（遇到的人最多）
+![错误](https://6c61-laji-bopv4-1259505195.tcb.qcloud.la/11111111111.png?sign=27ab0e0c9ea4f776c7da31155148feb8&t=1582555839
+)
+![解决办法](https://6c61-laji-bopv4-1259505195.tcb.qcloud.la/2222222.png?sign=f40dcc35a1057378883bf0fb99c17c16&t=1582556012)
+
 ## 直接扫码体验
 ![垃圾分类智能工具](https://6c61-laji-bopv4-1259505195.tcb.qcloud.la/%E4%B8%8B%E8%BD%BD.png?sign=9ac1d35da98fdf1ff62950948e267f05&t=1562463997)
 ## 其他兄弟的垃圾分类小程序
