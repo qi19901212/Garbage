@@ -24,7 +24,7 @@ exports.main = async(event, context) => {
           data,
           info: '操作成功！'
         })
-      }).catch(err=>{
+     }).catch(error=>{
         console.log(error)
         if (!error.code){
           return Promise.reject(error)
