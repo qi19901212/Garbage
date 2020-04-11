@@ -42,7 +42,7 @@
 
 
 ## 有什么问题可以访问我的群
-https://developers.weixin.qq.com/community/develop/doc/000cc6600f0610559fc857f6c5600c
+https://www.jianshu.com/p/66ec0eed68bd
 
 ## 垃圾库 新增
 https://pan.baidu.com/s/1PM7ZUB5-bVyktVbSefYDZg?errno=0&errmsg=Auth%20Login%20Sucess&&bduss=&ssnerror=0&traceid=
