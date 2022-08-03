@@ -1,9 +1,9 @@
 {
   "pages": [
-    "pages/ai/index",
-    "pages/ai/camera/camera",
-    "pages/ai/search",
-    "pages/ai/filter/filter",
+    "pages/index/index",
+    "pages/index/camera/camera",
+    "pages/index/search",
+    "pages/index/filter/filter",
     "pages/android/qa",
     "pages/index/index",
     "pages/sort/sort",

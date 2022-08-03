@@ -1,137 +1,119 @@
-/**index.wxss**/
 
-page {
-  background: #f6f6f6;
+.bg-darkGray {
+	background-color:  #f6f6f6;
+	color:#ffffff;
+}
+.cu-bar .search-form {
+  background-color:  #ffffff;
+}
+.cu-bar .search-form input{
+  height: 100rpx;
+}
+.cu-bar .search-form{
+  height: 90rpx;
+}
+.cu-bar{
+  margin-top: 300rpx;
+}
+.ai-view{
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-}
-
-.userinfo, .uploader, .tunnel {
-  margin-top: 40rpx;
-  height: 140rpx;
-  width: 100%;
-  background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-left: none;
-  border-right: none;
-  display: flex;
-  flex-direction: row;
   align-items: center;
-  transition: all 300ms ease;
+  margin-top: 50rpx;
 }
-
-.userinfo-avatar {
+.txt{
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #00cc77;
+}
+.tip{
+  font-size: 22rpx;
+  color: #00cc77;
+  margin-top: 20rpx;
+}
+.ai-paizhao{
+  width: 150rpx;
+  height: 150rpx;
+  margin-top: 50rpx;
+}
+.float-view{
+  position:absolute;
+  z-index:9;
   width: 100rpx;
   height: 100rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-  background-size: cover;
-  background-color: white;
+  margin-right: 50rpx;
+  margin-bottom: 50rpx;
 }
 
-.userinfo-avatar:after {
-  border: none;
-}
 
-.userinfo-nickname {
-  font-size: 32rpx;
-  color: #007aff;
-  background-color: white;
-  background-size: cover;
-}
 
-.userinfo-nickname::after {
-  border: none;
-}
-
-.uploader, .tunnel {
-  height: auto;
-  padding: 0 0 0 40rpx;
-  flex-direction: column;
-  align-items: flex-start;
-  box-sizing: border-box;
-}
-
-.uploader-text, .tunnel-text {
-  width: 100%;
-  line-height: 52px;
-  font-size: 34rpx;
-  color: #007aff;
-}
-
-.uploader-container {
-  width: 100%;
-  height: 400rpx;
-  padding: 20rpx 20rpx 20rpx 0;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  box-sizing: border-box;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.uploader-image {
-  width: 100%;
-  height: 360rpx;
-}
-
-.tunnel {
-  padding: 0 0 0 40rpx;
-}
-
-.tunnel-text {
-  position: relative;
-  color: #222;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: space-between;
-  box-sizing: border-box;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.tunnel-text:first-child {
-  border-top: none;
-}
-
-.tunnel-switch {
-  position: absolute;
-  right: 20rpx;
-  top: -2rpx;
-}
-
-.disable {
-  color: #888;
-}
-
-.service {
+.box {
   position: fixed;
-  right: 40rpx;
-  bottom: 40rpx;
-  width: 140rpx;
-  height: 140rpx;
-  border-radius: 50%;
-  background: linear-gradient(#007aff, #0063ce);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  top: 0;
+  /* left: 0; */
+  right: 0;
+  z-index: 999;
   display: flex;
-  align-content: center;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 600rpx;
+}
+.arrow {
+  width: 0;
+  height: 0;
+  margin-right: 120rpx;
+  border-width: 20rpx;
+  border-style: solid;
+  border-color:  transparent transparent #00cc77 transparent;
+}
+.body {
+  background-color: #00cc77;
+  box-shadow: 0 10rpx 20rpx -10rpx #00cc77;
+  border-radius: 12rpx;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  transition: all 300ms ease;
+  height: 84rpx;
+  padding: 0 20rpx;
+  margin-right: 40rpx;
 }
-
-.service-button {
-  position: absolute;
-  top: 40rpx;
+.body > text {
+  color: #FFF;
+  font-size: 28rpx;
+  font-weight: 400;
 }
-
-.service:active {
-  box-shadow: none;
+.kefu-box{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 400rpx;
+  height: 400rpx;
 }
-
-.request-text {
-  padding: 20rpx 0;
+.kefu-body {
+  background-color: white;
+  box-shadow: 0 10rpx 20rpx -10rpx #e1e1e1;
+  border-radius: 140rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60rpx;
+  padding: 10rpx 30rpx;
+  margin-right: 40rpx;
+  margin-bottom: 40rpx;
+}
+.img{
+  width: 40rpx;
+  height: 40rpx;
+}
+.q-tx{
+  margin: 0 0 0 10rpx;
   font-size: 24rpx;
-  line-height: 36rpx;
-  word-break: break-all;
 }

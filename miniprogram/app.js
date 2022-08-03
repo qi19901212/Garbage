@@ -1,10 +1,6 @@
-//app.js
 App({
   onLaunch: function() {
-
-    if (!wx.cloud) {
-      console.error('请使用 2.2.3 或以上的基础库以使用云能力')
-    } else {
+    if (wx.cloud) {
       wx.cloud.init({
         traceUser: true,
       })
@@ -27,7 +23,7 @@ App({
       }
     })
     updateManager.onUpdateFailed(function() {
-      // 新版本下载失败
+      console.log("更新失败")
     })
 
   },
